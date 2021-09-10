@@ -20,7 +20,12 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": [],
+				"userProperties": [
+					{
+						"name": "name",
+						"value": "value"
+					}
+				],
 				"typeProperties": {
 					"dataset": {
 						"referenceName": "Incoming",
