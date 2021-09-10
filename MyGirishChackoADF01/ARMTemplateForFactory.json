@@ -68,7 +68,10 @@
 								"type": "AzureBlobStorageReadSettings",
 								"recursive": true,
 								"enablePartitionDiscovery": false,
-								"prefix": "Gir"
+								"prefix": {
+									"value": "@{pipeline().globalParameters.file_prefix}",
+									"type": "Expression"
+								}
 							}
 						}
 					},
@@ -90,7 +93,10 @@
 								"storeSettings": {
 									"type": "AzureBlobStorageReadSettings",
 									"recursive": true,
-									"prefix": "Giri",
+									"prefix": {
+										"value": "@{pipeline().globalParameters.file_prefix}",
+										"type": "Expression"
+									},
 									"deleteFilesAfterCompletion": false
 								},
 								"formatSettings": {
