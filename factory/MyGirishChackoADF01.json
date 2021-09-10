@@ -1,0 +1,9 @@
+{
+	"name": "MyGirishChackoADF01",
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "222f7acd-9625-40d7-b229-9d410c4981c7",
+		"tenantId": "971880a7-e471-4c3f-8097-2dd71027edff"
+	}
+}
