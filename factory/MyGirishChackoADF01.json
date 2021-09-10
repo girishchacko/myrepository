@@ -1,5 +1,13 @@
 {
 	"name": "MyGirishChackoADF01",
+	"properties": {
+		"globalParameters": {
+			"file_prefix": {
+				"type": "string",
+				"value": "Giri"
+			}
+		}
+	},
 	"location": "australiaeast",
 	"identity": {
 		"type": "SystemAssigned",
